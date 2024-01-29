@@ -26,3 +26,8 @@ jd -set tests/data/[case_name].after.json tests/data/[case_name].run.json # 比�
 ## 其他说明
 
 * `src/builtin_words` 是内嵌于程序中的单词列表，`FINAL` 为所有答案词，`ACCEPTABLE` 为所有候选词。
+
+## 使用方式
+
+在配置完成 cargo 环境后，`cargo build` 并 `cargo run` 即可，使用时按照命令行提示即可。
+实验报告附具体使用方式见 `wordle.docx`。
